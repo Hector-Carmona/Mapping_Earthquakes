@@ -56,6 +56,7 @@ d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geoj
       weight: 0.5
     };
   }
+  
   // This function determines the radius of the earthquake marker based on its magnitude.
   // Earthquakes with a magnitude of 0 will be plotted with a radius of 1.
   function getRadius(magnitude) {
